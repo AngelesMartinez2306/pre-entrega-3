@@ -27,6 +27,10 @@ header nav ul {
 header nav ul li {
   margin-right: 20px;
 }
+header nav ul li:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
 header nav ul li a {
   text-decoration: none;
   color: white;
@@ -153,6 +157,10 @@ section div img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+section div img:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
 section div img h2 {
   font-size: 24px;
   margin-top: 10px;
@@ -178,9 +186,19 @@ main .ej {
   text-align: center;
   margin-bottom: 20px;
 }
-main .fotos {
-  display: block;
-  margin: 0 auto;
+main .fventas {
+  display: grid;
+  grid-template-columns: 1fr 1fe;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+main .fventas img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*informacion*/
